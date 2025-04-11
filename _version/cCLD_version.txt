@@ -1,7 +1,0 @@
-04-11-2025
-v 1.2.1
-notes:
-add filter functionality
-
-production:
-complete filter func.
