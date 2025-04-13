@@ -13,6 +13,7 @@ h1 {
 nav {
     display: inline-flex;
     margin: 0px 0px 0px 30px;
+	flex-wrap: wrap;
 }
 
 nav p{
