@@ -4,6 +4,7 @@ var legumesSwitch = true;
 var stewSwitch = true;
 var pastaSwitch = true;
 var dessertSwitch = true;
+var favoritesSwitch = true;
 
 function openRecipe(foodType) {
     if (foodType == 'meat') {
@@ -74,7 +75,6 @@ function openRecipe(foodType) {
     if (foodType == 'dessert') {
         let dessertnodes = document.querySelectorAll(".tag.dessert");
         dessertnodes.forEach(element => {
-            alert("dessertnodes")
             if (dessertSwitch) {
                 element.style.display = "none";
                 document.querySelector(".nav.dessert").style.backgroundColor = "orange";
@@ -88,7 +88,18 @@ function openRecipe(foodType) {
 }
 
 function openFavorites() {
-
+    let favoritesnodes = document.querySelectorAll(".tag.favorites");
+    favoritesnodes.forEach(element => {
+        console.log(element)
+        if (favoritesSwitch) {
+            element.style.display = "none";
+            document.querySelector(".nav.favorites").style.backgroundColor = "orange";
+        } else {
+            element.style.display = "flex";
+            document.querySelector(".nav.favorites").style.backgroundColor = "lightgoldenrodyellow";
+        }
+    });
+    favoritesSwitch = !favoritesSwitch;
 }
 
 function openAll() {

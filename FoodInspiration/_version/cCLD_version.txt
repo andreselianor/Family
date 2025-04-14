@@ -1,8 +1,7 @@
 04-11-2025
-v 1.2.2
+v 1.2.3
 notes:
-add filter functionality
-complete filter func.
+final version
+ready to relase
 
 production:
-favorites recipes
