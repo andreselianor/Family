@@ -1,23 +1,30 @@
-body{
+body {
   display: flex;
   justify-content: center;
   height: 98vh;
   align-items: center;
 }
-main{
+
+main {
   width: 380px;
 }
-#center{
+
+#center {
   width: 380px;
   height: 380px;
   text-align: center;
   border: solid 1px black;
   border-radius: 10px;
-  background-image: url('./pictureback.jpg');
+  background-image: url('../mainResources/picture_cover.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-nav{
+
+nav {
   display: inline-flex;
 }
-p{
+
+p {
   margin: 10px;
 }
