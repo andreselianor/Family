@@ -9,7 +9,7 @@ main {
   width: 380px;
 }
 
-#center {
+#content {
   width: 380px;
   height: 380px;
   text-align: center;
@@ -23,8 +23,9 @@ main {
 
 nav {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 p {
-  margin: 10px;
+  margin: 5px;
 }
